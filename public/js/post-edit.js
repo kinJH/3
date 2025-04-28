@@ -1,6 +1,7 @@
 const boardTitle = document.getElementById('board-title');
 const boardBody = document.getElementById('board-body');
 
+
 const postId=window.location.pathname.split('/')[2]
 
 fetch(`/api/post/${postId}`).then(res=>res.json()).then(post=>{

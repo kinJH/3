@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         }
         else{
             authStatusUi.innerHTML = `
-            <a href="/sign_up">회원가입</a>
+            <a href="/signup">회원가입</a>
             <a href="/login">로그인</a>`
         }
     })
